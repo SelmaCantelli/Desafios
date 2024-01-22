@@ -1,0 +1,28 @@
+#imprima números de 1 a 10 sem utilizar o for loop
+
+numero = 1
+
+while numero <= 100:
+    print(numero)
+    numero+=5
+
+1
+6
+11
+16
+21
+26
+31
+36
+41
+46
+51
+56
+61
+66
+71
+76
+81
+86
+91
+96
