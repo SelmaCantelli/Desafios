@@ -1,0 +1,8 @@
+
+# Use uma lista. Altere o segundo elemento da lista e acrescente outro por último. 
+frutas=['maça', 'banana', 'manga', 'uva']
+frutas[1] = 'morango'
+frutas.append ('abacaxi')
+print(frutas)
+
+['maça', 'morango', 'manga', 'uva', 'abacaxi']
