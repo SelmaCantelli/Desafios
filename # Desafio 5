@@ -1,0 +1,9 @@
+
+# Crie um sprit de duas perguntas. Imprima utilizando os dados.
+nome = input('Qual seu nome?')
+idade = input('Qual sua idade?')
+print ('Olá {} ! Você tem {} anos'. format(nome,idade))
+
+Qual seu nome?Selma
+Qual sua idade?43
+Olá Selma ! Você tem 43 anos
