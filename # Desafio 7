@@ -1,0 +1,8 @@
+
+# Use uma lista. Imprima o primeiro e o último elemento da lista.
+frutas=['maça', 'banana', 'manga', 'uva']
+print(f'A primeira fruta da lista é {frutas[0]}')
+print(f'A última fruta da lista é {frutas[-1]}')
+
+A primeira fruta da lista é maça
+A última fruta da lista é uva
