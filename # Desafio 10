@@ -1,0 +1,9 @@
+# Use for loop e imprima uma frase com cada item da lista
+frutas=['maça', 'banana', 'manga', 'uva']
+for fruta in frutas:
+    print('Eu gosto de '+ fruta)
+
+Eu gosto de maça
+Eu gosto de banana
+Eu gosto de manga
+Eu gosto de uva
