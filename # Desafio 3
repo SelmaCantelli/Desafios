@@ -1,0 +1,7 @@
+# Crie duas variáveis numéricas. Imprima a divisão destas duas variáveis
+num1 = 10
+num2 = 3.5
+conta = num1 / num2
+print (conta)
+
+2.857142857142857
