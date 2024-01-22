@@ -1,0 +1,7 @@
+
+# Crie duas variáveis nome e idade. Imprima a frase "Olá meu nome é XXX eu tenho xx anos".
+nome = 'Selma'
+idade = '43'
+print ("Olá meu nome é",nome, "eu tenho", idade, "anos")
+
+Olá meu nome é Selma eu tenho 43 anos
