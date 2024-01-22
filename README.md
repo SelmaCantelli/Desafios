@@ -1,4 +1,4 @@
-# desafios Aprenda Programar PYTHON com 32 Projetos Reais (2023)
+# desafios - Aprenda Programar PYTHON com 32 Projetos Reais (2023)
 
 O que você aprenderá
 Domínio da Sintaxe Python: Compreensão dos fundamentos e das peculiaridades da linguagem.
