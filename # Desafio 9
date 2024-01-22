@@ -1,0 +1,9 @@
+
+# Utilize uma lista, remova um item usando o remove e delete o último item da lista
+frutas=['maça', 'banana', 'manga', 'uva']
+frutas.remove('manga')
+del frutas[-1]
+
+print(frutas)
+
+['maça', 'banana']
