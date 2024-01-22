@@ -1,0 +1,24 @@
+
+# Crie duas perguntas e imprima a soma, subtração, multiplicação e exponenciação destes números. 
+numero1 =float(input('Digite um número'))
+numero2 = float(input('Digite outro número'))
+# Realizar cálculos matemáticos
+soma = numero1 + numero2
+subtracao = numero1 - numero2
+divisao = numero1 / numero2
+multiplicacao = numero1 * numero2
+exponenciacao = numero1 ** numero2
+
+print (f'{soma}')
+print (f'{subtracao}')
+print (f'{divisao}')
+print (f'{multiplicacao}')
+print (f'{exponenciacao}')
+
+Digite um número2
+Digite outro número3
+5.0
+-1.0
+0.6666666666666666
+6.0
+8.0
