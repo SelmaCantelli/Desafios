@@ -1,0 +1,6 @@
+
+# Crie uma lista e imprima
+frutas = ['maça','banana','manga','uva']
+print (frutas)
+
+['maça', 'banana', 'manga', 'uva']
