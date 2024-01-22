@@ -1,0 +1,21 @@
+
+# Crie duas listas e agrupe-as
+frutas=['maça', 'banana', 'manga', 'uva']
+vegetais =['cenoura', 'alface', 'brocolis']
+
+for fruta in frutas:
+    for vegetal in vegetais:
+        print(fruta,vegetal)
+
+maça cenoura
+maça alface
+maça brocolis
+banana cenoura
+banana alface
+banana brocolis
+manga cenoura
+manga alface
+manga brocolis
+uva cenoura
+uva alface
+uva brocolis
