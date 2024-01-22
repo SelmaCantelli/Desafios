@@ -1,0 +1,13 @@
+
+# Crie uma lista e crie um contador dos elementos da lista
+frutas=['maça', 'maça' 'banana', 'maça','manga', 'uva']
+contador = 0
+
+for fruta in frutas:
+    if fruta == 'maça':
+        contador += 1
+    
+print ('Números de maçãs na lista:', contador)
+
+
+Números de maçãs na lista: 2
