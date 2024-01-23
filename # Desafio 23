@@ -10,3 +10,13 @@ result = friends1.intersection(friends2)
 print(result)
 
 {'Marcelo', 'Patrícia'}
+
+# Criar dois conjuntos com nomes de amigos com nomes repetidos nos dois conjuntos, e imprimir somente os que não se repetem.
+
+amigos1 = {'Marcelo', 'Augusta', 'Fabiane', 'Paula', 'Luciana'}
+amigos2 = {'Luciana', 'Marcelo', 'Paula', 'Rogerio', 'Aline'}
+
+result = amigos1.difference(amigos2)
+print(result) 
+
+{'Fabiane', 'Augusta'}
