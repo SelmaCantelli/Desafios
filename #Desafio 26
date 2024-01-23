@@ -1,0 +1,16 @@
+# Crie uma função para calcular a potencia de um número. A função deve aceitar dois argumentos: base e expoente.
+# Caso não seja digitado deve assumir o valor padrão de 2
+
+def potencia (base,expoente=2):
+    return base ** expoente
+user_number = int(input('Digite um número de base:'))
+user_expoente = int(input('Digite um número de expoente (default 2):'))
+
+if user_expoente:
+   print (f'O resultado é: {potencia(user_number,int(user_expoente))}') 
+else:
+   print (f'O resultado é: {potencia(user_number)}') 
+
+Digite um número de base:3
+Digite um número de expoente (default 2):3
+O resultado é: 27
