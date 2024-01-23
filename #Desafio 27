@@ -1,0 +1,13 @@
+# Crie uma função para fatorar um número. Peça ao usuário para digitar um número e imprima o número fatorado.
+
+def fatorial (n):
+  if n==0 or n ==  1:
+    return 1
+  else:
+    return n* fatorial(n-1)
+
+user_number = int(input('Digite um número:')) 
+print (f'O fatorial de {user_number} é {fatorial(user_number)}')
+
+Digite um número:5
+O fatorial de 5 é 120
