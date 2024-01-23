@@ -1,0 +1,11 @@
+# Crie uma função lambda que aceite dois números e retorne a multiplicação destes
+
+multiplicacao = lambda x, y: x * y
+
+# Exemplo de uso
+numero1 = 3
+numero2 = 4
+resultado = multiplicacao(numero1, numero2)
+print(f'A multiplicação de {numero1} e {numero2} é {resultado}')
+
+A multiplicação de 3 e 4 é 12
