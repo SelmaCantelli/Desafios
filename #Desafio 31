@@ -1,0 +1,13 @@
+# Crie uma função lambda que aceite um número par e outro ímpar e retorne informando se é par ou ímpar
+verificar_par_impar = lambda x, y: ("Par" if x % 2 == 0 else "Ímpar", "Par" if y % 2 == 0 else "Ímpar")
+
+# Exemplo de uso
+numero_par = 6
+numero_impar = 7
+resultado_par, resultado_impar = verificar_par_impar(numero_par, numero_impar)
+
+print(f'O número {numero_par} é {resultado_par}')
+print(f'O número {numero_impar} é {resultado_impar}')
+
+O número 6 é Par
+O número 7 é Ímpar
