@@ -1,15 +1,10 @@
-# Crie uma lista com 3 cidades  e peça ao usuário para digitar o nome de uma cidade.
-# Se a cidade estiver na lista imprima " A cidade esta na lista" caso contrário " A Cidade não esta na lista"
-# não utilizar list
+# Crie uma função que aceita um número como entrada e imprima o quadrado deste número
 
-cidades = ['sao paulo', 'minas gerais', 'goias']
-usuario = input('Digite o nome de uma cidade:')
+def quadrado (numero):
+    return numero ** 2
 
-if usuario in cidades:
-  print('A cidade esta na lista')
-else:
-  print('A cidade não está na lista')  
+usuario = int(input('Digite um número:'))
+print(f' O quadrado de {usuario} é {quadrado (usuario)}')
 
-
-Digite o nome de uma cidade:rio de janeiro
-A cidade não está na lista
+Digite um número:5
+ O quadrado de 5 é 25
