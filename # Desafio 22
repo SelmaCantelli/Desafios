@@ -1,0 +1,18 @@
+# Crie uma lista com 5 países e suas capitais. Peça ao usuário apra digitar um nome de país. Caso esteja na lista
+# imprima (Este país xxx  esta na lista e sua capital é XXX) caso contrário imprima ( não temos informações deste país)
+
+paises_capitais = {'Brasil': 'Brasilia',
+                   'Agentina': 'Buenos Aires',
+                    'Chile' : 'Santiago',
+                     'Australia': 'Camberra',
+                    'Canada' : 'Ottawa'
+                  }                      
+pais_usuario = input('Digite o nome de um país:')
+
+if pais_usuario in paises_capitais:
+    print(f'Este país {pais_usuario} esta na lista e sua capital é {paises_capitais[pais_usuario]}' )
+else:
+    print (f'Não temos informações deste país')
+
+Digite o nome de um país:Brasil
+Este país Brasil esta na lista e sua capital é Brasilia
