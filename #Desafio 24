@@ -1,0 +1,15 @@
+# Crie uma lista com 3 cidades  e peça ao usuário para digitar o nome de uma cidade.
+# Se a cidade estiver na lista imprima " A cidade esta na lista" caso contrário " A Cidade não esta na lista"
+# não utilizar list
+
+cidades = ['sao paulo', 'minas gerais', 'goias']
+usuario = input('Digite o nome de uma cidade:')
+
+if usuario in cidades:
+  print('A cidade esta na lista')
+else:
+  print('A cidade não está na lista')  
+
+
+Digite o nome de uma cidade:rio de janeiro
+A cidade não está na lista
