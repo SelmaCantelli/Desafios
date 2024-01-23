@@ -1,0 +1,13 @@
+# Crie uma lista de carros. Imprima " Este carro está disponível" ( se estiver no estoque) 
+#caso contrário ( " Desculpe, este carro não está disponível")
+
+estoque = ['BMW X6','BMW I5', 'BMW I8']
+pesquisa_carro= input('Digite o carro desejado:')
+
+if pesquisa_carro in estoque:
+    print ('Este carro está disponível')
+else:
+    print('Desculpe, este carro não está disponível')
+
+Digite o carro desejado:BMW X6
+Este carro está disponível
