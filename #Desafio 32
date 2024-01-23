@@ -1,0 +1,10 @@
+
+# Crie uma função lambda que eleve ao quadrado todoso os números de uma lista
+
+lista = [1, 2, 3, 4, 5]
+
+quadrado_lista = list(map(lambda x: x ** 2, lista))
+
+print(quadrado_lista)
+
+[1, 4, 9, 16, 25]
