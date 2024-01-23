@@ -1,0 +1,10 @@
+# Crie uma função lambda que aceite um número e retorne o cubo deste número
+
+cubo = lambda x: x ** 3
+
+# Exemplo de uso
+numero = 5
+resultado = cubo(numero)
+print(f'O cubo de {numero} é {resultado}')
+
+O cubo de 5 é 125
