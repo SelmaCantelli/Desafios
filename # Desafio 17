@@ -1,0 +1,14 @@
+
+# Peça ao usuário um número e imprima: ESte número é maior que dez ou Este número é menor ou igual a dez.
+
+age = int(input('Digite sua idade:'))
+
+if age < 13:
+    print('Você é uma criança')
+elif age >= 13 and age < 20:
+    print('Você é um adolescente')
+else:      
+    print('Você é um adulto')
+
+Digite sua idade:12
+Você é uma criança
