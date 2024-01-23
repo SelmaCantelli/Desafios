@@ -1,0 +1,10 @@
+
+# Peça ao usuário um número e imprima: ESte número é maior que dez ou Este número é menor ou igual a dez.
+numero = int(input('Escolha um número'))
+if numero > 10:
+    print('O número é maior que 10')
+else:    
+    print('O número é menor ou igual a 10')
+
+Escolha um número5
+O número é menor ou igual a 10
