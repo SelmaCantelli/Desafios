@@ -1,0 +1,13 @@
+# Peça ao usuário apra digitar uma fruta. Se não for abacate o game continua, caso for abacate o game termina.
+
+while True:
+    fruta = input (' Digite o nome de uma fruta:')
+    if fruta == 'abacate':
+        break
+print ('Parabéns você acertou a fruta!')
+
+ Digite o nome de uma fruta:morango
+ Digite o nome de uma fruta:banana
+ Digite o nome de uma fruta:uva
+ Digite o nome de uma fruta:abacate
+Parabéns você acertou a fruta!
