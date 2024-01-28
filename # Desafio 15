@@ -1,6 +1,6 @@
 
 # Crie uma lista e crie um contador dos elementos da lista
-frutas=['maça', 'maça' 'banana', 'maça','manga', 'uva']
+frutas=['maça', 'maça', 'banana', 'maça','manga', 'uva']
 contador = 0
 
 for fruta in frutas:
@@ -10,4 +10,4 @@ for fruta in frutas:
 print ('Números de maçãs na lista:', contador)
 
 
-Números de maçãs na lista: 2
+Números de maçãs na lista: 3
