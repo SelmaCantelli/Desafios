@@ -1,5 +1,6 @@
 
-# Peça ao usuário um número e imprima: ESte número é maior que dez ou Este número é menor ou igual a dez.
+# Peça ao usuário sua idade. Se for abaixo de 13 anos imprima "Você é uma criança".
+#Se for a entre 13 e 19 anos imprima "Você é um adolestente". Se for  acima de 19 anos imprima "Você é um adulto".
 
 age = int(input('Digite sua idade:'))
 
