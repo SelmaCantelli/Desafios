@@ -1,4 +1,4 @@
-# Peça ao usuário apra digitar uma fruta. Se não for abacate o game continua, caso for abacate o game termina.
+# Peça ao usuário para digitar uma fruta. Se não for abacate o game continua, caso for abacate o game termina.
 
 while True:
     fruta = input (' Digite o nome de uma fruta:')
