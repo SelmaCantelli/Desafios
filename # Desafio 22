@@ -2,7 +2,7 @@
 # imprima (Este país xxx  esta na lista e sua capital é XXX) caso contrário imprima ( não temos informações deste país)
 
 paises_capitais = {'Brasil': 'Brasilia',
-                   'Agentina': 'Buenos Aires',
+                   'Argentina': 'Buenos Aires',
                     'Chile' : 'Santiago',
                      'Australia': 'Camberra',
                     'Canada' : 'Ottawa'
