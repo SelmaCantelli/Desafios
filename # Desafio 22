@@ -10,7 +10,7 @@ paises_capitais = {'Brasil': 'Brasilia',
 pais_usuario = input('Digite o nome de um país:')
 
 if pais_usuario in paises_capitais:
-    print(f'Este país {pais_usuario} esta na lista e sua capital é {paises_capitais[pais_usuario]}' )
+    print(f'O país {pais_usuario} esta na lista e sua capital é {paises_capitais[pais_usuario]}' )
 else:
     print (f'Não temos informações deste país')
 
